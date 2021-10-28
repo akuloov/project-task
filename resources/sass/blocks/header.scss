@@ -10,6 +10,7 @@
         padding-top: 12px;
         font-size: 14px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
 
@@ -20,7 +21,14 @@
 
     .left-block-top {
         display: flex;
+        flex-wrap: wrap;
         color: #7B94B0;
+        
+        @media(max-width: 800px){
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+        }
     }
 
 
@@ -46,6 +54,11 @@
 
     .nav-top {
         margin-left: 74px;
+        
+        @media(max-width: 443px){
+            margin-left: 0;
+            width: 100%;
+        }
 
         &__link {
             margin-left: 16px;
@@ -64,6 +77,14 @@
     .right-block-top {
         color: #7B94B0;
         display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        
+        @media(max-width: 800px){
+            width: 100%;
+            justify-content: center;
+        }
+
 
         &__link {
             font-weight: 700;
@@ -80,6 +101,11 @@
     .language {
         margin-left: 60px;
         font-size: 12px;
+        
+        @media(max-width: 422px){
+            margin-left: 0;
+            width: 100%;
+        }
 
         &__item {
             text-transform: uppercase;
@@ -100,9 +126,10 @@
         }
 
     }
-    
-    .left-block-bottom{
+
+    .left-block-bottom {
         display: flex;
+
     }
 
     &__logo {
@@ -115,6 +142,14 @@
         color: #202454;
         margin-left: 96px;
         margin-top: 29px;
+
+        @media(max-width: 1386px) {
+            margin-left: 10px;
+        }
+
+        @media(max-width: 872px) {
+            display: none;
+        }
 
         &__link {
             margin-left: 58px;
@@ -129,52 +164,58 @@
             }
         }
     }
-    
-    .right-block-bottom{
+
+    .right-block-bottom {
         display: flex;
-        
+
     }
 
     .button-search {
         color: #202454;
         font-weight: bold;
         font-size: 16px;
-        
-        &:hover{
+
+        &:hover {
             transition: 0.5s;
             color: #202497;
         }
-        
-        &__image{
+
+        &__image {
             vertical-align: middle;
             margin-right: 16px;
         }
     }
-    
-    .usage{
+
+    .usage {
         display: flex;
         align-items: center;
         margin-right: 16px;
         margin-left: 46px;
-        
-        &__item{
+
+        &__item {
             margin-left: 21px;
-            
-            &:hover{
+
+            &:hover {
                 opacity: 0.6;
                 transition: 0.5s;
             }
-            
-            &:first-child{
+
+            &:first-child {
                 margin-left: 0;
             }
         }
-        
-        &__img_counter{
+
+        &__img {
+            width: 30px;
+            height: 30px;
+            max-width: none;
+        }
+
+        &__img_counter {
             position: relative;
         }
-        
-        &__counter{
+
+        &__counter {
             width: 20px;
             height: 20px;
             background: #E77E42;
