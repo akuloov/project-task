@@ -1,5 +1,5 @@
 .header {
-    height: auto;
+    min-height: 104px;
     box-shadow: 0px 4px 12px rgba(18, 33, 63, 0.05);
 
     &-container {
@@ -51,14 +51,20 @@
             }
         }
     }
-
-    .nav-top {
+    
+    &__nav-top{
         margin-left: 74px;
         
-        @media(max-width: 443px){
+         @media(max-width: 443px){
             margin-left: 0;
             width: 100%;
         }
+    }
+
+    .nav-top {
+        
+        
+       
 
         &__link {
             margin-left: 16px;
@@ -97,15 +103,19 @@
     }
 
     &__tel {}
-
-    .language {
+    
+    &__language{
         margin-left: 60px;
-        font-size: 12px;
         
-        @media(max-width: 422px){
+         @media(max-width: 422px){
             margin-left: 0;
             width: 100%;
         }
+    }
+
+    .language {
+        
+        font-size: 12px;
 
         &__item {
             text-transform: uppercase;
@@ -135,14 +145,11 @@
     &__logo {
         margin-top: 20px;
     }
-
-    .nav-bottom {
-        font-weight: bold;
-        font-size: 18px;
-        color: #202454;
+    
+    &__nav-bottom{
         margin-left: 96px;
         margin-top: 29px;
-
+        
         @media(max-width: 1386px) {
             margin-left: 10px;
         }
@@ -150,6 +157,12 @@
         @media(max-width: 872px) {
             display: none;
         }
+    }
+
+    .nav-bottom {
+        font-weight: bold;
+        font-size: 18px;
+        color: #202454;
 
         &__link {
             margin-left: 58px;
@@ -185,12 +198,15 @@
             margin-right: 16px;
         }
     }
+    
+    &__usage{
+        margin-right: 16px;
+        margin-left: 46px;
+    }
 
     .usage {
         display: flex;
         align-items: center;
-        margin-right: 16px;
-        margin-left: 46px;
 
         &__item {
             margin-left: 21px;

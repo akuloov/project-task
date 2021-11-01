@@ -1,5 +1,4 @@
 .footer {
-    height: 520px;
     background: #245420;
     font-size: 14px;
 
@@ -169,8 +168,11 @@
         }
     }
 
-    .block4 {
+    &__block4 {
         margin-top: 88px;
+    }
+
+    .block4 {
 
         &__title {
             color: #FFF;
@@ -252,7 +254,6 @@
 
     &__footer {
         max-width: 1060px;
-        margin-right: 0;
         margin-left: auto;
         border-top: 1px solid rgba(255, 255, 255, 0.2);
         display: flex;
@@ -267,16 +268,16 @@
 
             }
         }
-        
-        .wezom{
+
+        .wezom {
             font-size: 14px;
             color: rgba(255, 255, 255, 0.4);
-            
-            &__link{
+
+            &__link {
                 font-weight: 700;
                 color: rgba(255, 255, 255, 1);
-                
-                &:hover{
+
+                &:hover {
                     opacity: 0.7;
                     transition: 0.3s;
                 }
