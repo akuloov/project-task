@@ -2,6 +2,70 @@
     min-height: 104px;
     box-shadow: 0px 4px 12px rgba(18, 33, 63, 0.05);
 
+    &__burger {
+        display: none;
+
+        @media (max-width: 1070px) {
+            display: block;
+            position: relative;
+            width: 30px;
+            height: 20px;
+            z-index: 3;
+
+            &::before,
+            &::after {
+                content: '';
+                background-color: #000;
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                left: 0;
+            }
+
+            &::before {
+                top: 0;
+            }
+
+            &::after {
+                bottom: 0;
+            }
+
+            & span {
+                position: absolute;
+                background-color: #000;
+                left: 0;
+                top: 9px;
+                width: 100%;
+                height: 2px;
+            }
+        }
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    &__body {
+        position: relative;
+    }
+
+    &__menu {
+
+        @media(max-width: 1070px) {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
     &-container {
         padding: 0 40px;
     }
@@ -23,8 +87,8 @@
         display: flex;
         flex-wrap: wrap;
         color: #7B94B0;
-        
-        @media(max-width: 800px){
+
+        @media(max-width: 800px) {
             width: 100%;
             justify-content: center;
             text-align: center;
@@ -51,20 +115,20 @@
             }
         }
     }
-    
-    &__nav-top{
+
+    &__nav-top {
         margin-left: 74px;
-        
-         @media(max-width: 443px){
+
+        @media(max-width: 443px) {
             margin-left: 0;
             width: 100%;
         }
     }
 
     .nav-top {
-        
-        
-       
+
+
+
 
         &__link {
             margin-left: 16px;
@@ -85,8 +149,8 @@
         display: flex;
         flex-wrap: wrap;
         text-align: center;
-        
-        @media(max-width: 800px){
+
+        @media(max-width: 800px) {
             width: 100%;
             justify-content: center;
         }
@@ -103,18 +167,18 @@
     }
 
     &__tel {}
-    
-    &__language{
+
+    &__language {
         margin-left: 60px;
-        
-         @media(max-width: 422px){
+
+        @media(max-width: 422px) {
             margin-left: 0;
             width: 100%;
         }
     }
 
     .language {
-        
+
         font-size: 12px;
 
         &__item {
@@ -145,11 +209,11 @@
     &__logo {
         margin-top: 20px;
     }
-    
-    &__nav-bottom{
+
+    &__nav-bottom {
         margin-left: 96px;
         margin-top: 29px;
-        
+
         @media(max-width: 1386px) {
             margin-left: 10px;
         }
@@ -187,6 +251,7 @@
         color: #202454;
         font-weight: bold;
         font-size: 16px;
+        background-color: rgba(255, 255, 255, 0);
 
         &:hover {
             transition: 0.5s;
@@ -198,8 +263,8 @@
             margin-right: 16px;
         }
     }
-    
-    &__usage{
+
+    &__usage {
         margin-right: 16px;
         margin-left: 46px;
     }

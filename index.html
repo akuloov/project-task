@@ -13,59 +13,68 @@
     <div class="layout">
         <div class="layout__body">
             <header class="header">
-                <div class="header-container">
-                    <div class="header-top">
-                        <div class="header-top__left-block left-block-top">
-                            <div class="header__geolocation geolocation">
-                                <img class="geolocation__image" src="image/geo.svg" alt="">
-                                <a class="geolocation__city" href="">Херсон</a>
-                            </div>
-                            <nav class="header__nav-top nav-top">
-                                <a class="nav-top__link" href="">Магазины</a>
-                                <a class="nav-top__link" href="">Блог</a>
-                                <a class="nav-top__link" href="">Покупателям</a>
-                            </nav>
+                <div class="header__body">
+                    <div class="header-container">
+                        <div class="header__burger">
+                            <span></span>
                         </div>
-                        <div class="header-top__right-block right-block-top">
-                            <div class="header__tel">
-                                Консультация: <a href="tel:0444903100" class="right-block-top__link">(044) 490 31 00</a>
+                        <div class="header__menu">
+                            <div class="header-top">
+                                <div class="header-top__left-block left-block-top">
+                                    <div class="header__geolocation geolocation">
+                                        <img class="geolocation__image" src="image/geo.svg" alt="">
+                                        <a class="geolocation__city" href="">Херсон</a>
+                                    </div>
+                                    <nav class="header__nav-top nav-top">
+                                        <a class="nav-top__link" href="">Магазины</a>
+                                        <a class="nav-top__link" href="">Блог</a>
+                                        <a class="nav-top__link" href="">Покупателям</a>
+                                    </nav>
+                                </div>
+                                <div class="header-top__right-block right-block-top">
+                                    <div class="header__tel">
+                                        Консультация: <a href="tel:0444903100" class="right-block-top__link">(044) 490 31 00</a>
+                                    </div>
+                                    <div class="header__language language">
+                                        <a href="" class="language__item">УКР</a>
+                                        <a href="" class="language__item active">РУС</a>
+                                        <a href="" class="language__item">ENG</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="header__language language">
-                                <a href="" class="language__item">УКР</a>
-                                <a href="" class="language__item active">РУС</a>
-                                <a href="" class="language__item">ENG</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="header-bottom">
-                        <div class="header-bottom__left-block-bottom left-block-bottom">
-                            <a href="" class="header__link">
-                                <img src="image/wezom_logo.svg" alt="" class="header__logo logo">
-                            </a>
-                            <nav class="header__nav-bottom nav-bottom">
-                                <a href="" class="nav-bottom__link">Товары по питомцам</a>
-                                <a href="" class="nav-bottom__link">Бренды</a>
-                                <a href="" class="nav-bottom__link">Ветаптека</a>
-                                <a href="" class="nav-bottom__link">Найди друга</a>
-                                <a href="" class="nav-bottom__link">Ветклиники</a>
-                            </nav>
-                        </div>
-                        <div class="header-bottom__right-block-bottom right-block-bottom">
-                            <button class="header__button-search button-search">
-                                <img src="image/search.svg" alt="" class="button-search__image">
-                                Поиск
-                            </button>
-                            <div class="header__usage usage">
-                                <a href="" class="usage__item">
-                                    <img src="image/human.svg" alt="" class="usage__img">
-                                </a>
-                                <a href="" class="usage__item">
-                                    <img src="image/like.svg" alt="" class="usage__img">
-                                </a>
-                                <a href="" class="usage__item usage__img_counter">
-                                    <img src="image/basket.svg" alt="" class="usage__img">
-                                    <div class="usage__counter">0</div>
-                                </a>
+                            <div class="header-bottom">
+                                <div class="header-bottom__left-block-bottom left-block-bottom">
+                                    <a href="" class="header__link">
+                                        <picture>
+                                            <img src="image/wezom_logo.svg" alt="" class="header__logo logo">
+                                        </picture>
+                                    </a>
+                                    <nav class="header__nav-bottom nav-bottom">
+                                        <a href="" class="nav-bottom__link">Товары по питомцам</a>
+                                        <a href="" class="nav-bottom__link">Бренды</a>
+                                        <a href="" class="nav-bottom__link">Ветаптека</a>
+                                        <a href="" class="nav-bottom__link">Найди друга</a>
+                                        <a href="" class="nav-bottom__link">Ветклиники</a>
+                                    </nav>
+                                </div>
+                                <div class="header-bottom__right-block-bottom right-block-bottom">
+                                    <button class="header__button-search button-search">
+                                        <img src="image/search.svg" alt="" class="button-search__image">
+                                        Поиск
+                                    </button>
+                                    <div class="header__usage usage">
+                                        <a href="" class="usage__item">
+                                            <img src="image/human.svg" alt="" class="usage__img">
+                                        </a>
+                                        <a href="" class="usage__item">
+                                            <img src="image/like.svg" alt="" class="usage__img">
+                                        </a>
+                                        <a href="" class="usage__item usage__img_counter">
+                                            <img src="image/basket.svg" alt="" class="usage__img">
+                                            <div class="usage__counter">0</div>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -162,7 +171,8 @@
             </div>
         </footer>
     </div>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
