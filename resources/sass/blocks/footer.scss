@@ -261,15 +261,6 @@
         justify-content: space-between;
         align-items: center;
 
-        .payment {
-
-            &__img {
-                margin-right: 25px;
-                vertical-align: middle;
-
-            }
-        }
-
         .wezom {
             font-size: 14px;
             color: rgba(255, 255, 255, 0.4);
@@ -286,4 +277,12 @@
         }
 
     }
+    
+            &__payment{
+            
+            &-img{
+                margin-right: 25px;
+                vertical-align: middle;
+            }
+        }
 }
