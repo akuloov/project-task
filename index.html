@@ -20,7 +20,9 @@
                     <div class="header-top">
                         <div class="header-top__left-block left-block-top">
                             <div class="header__geolocation geolocation">
-                                <img class="geolocation__image" src="image/geo.svg" alt="">
+                                <svg class="geolocation__image">
+                                    <use href="sprite.svg#geo"></use>
+                                </svg>
                                 <a class="geolocation__city" href="">Херсон</a>
                             </div>
                             <nav class="header__nav-top nav-top">
@@ -44,7 +46,9 @@
                         <div class="header-bottom__left-block-bottom left-block-bottom">
                             <a href="" class="header__link">
                                 <picture>
-                                    <img src="image/wezom_logo.svg" alt="" class="header__logo logo">
+                                    <svg class="header__logo logo">
+                                        <use href=sprite.svg#wezom_logo></use>
+                                    </svg>
                                 </picture>
                             </a>
                             <nav class="header__nav-bottom nav-bottom">
@@ -57,18 +61,26 @@
                         </div>
                         <div class="header-bottom__right-block-bottom right-block-bottom">
                             <button class="header__button-search button-search">
-                                <img src="image/search.svg" alt="" class="button-search__image">
+                                <svg class="button-search__image">
+                                    <use href=sprite.svg#search></use>
+                                </svg>
                                 Поиск
                             </button>
                             <div class="header__usage usage">
                                 <a href="" class="usage__item">
-                                    <img src="image/human.svg" alt="" class="usage__img">
+                                    <svg class="usage__img">
+                                        <use href=sprite.svg#human></use>
+                                    </svg>
                                 </a>
                                 <a href="" class="usage__item">
-                                    <img src="image/like.svg" alt="" class="usage__img">
+                                    <svg class="usage__img">
+                                        <use href=sprite.svg#like></use>
+                                    </svg>
                                 </a>
                                 <a href="" class="usage__item usage__img_counter">
-                                    <img src="image/basket.svg" alt="" class="usage__img">
+                                    <svg class="usage__img">
+                                        <use href=sprite.svg#basket></use>
+                                    </svg>
                                     <div class="usage__counter">0</div>
                                 </a>
                             </div>
@@ -85,7 +97,9 @@
                 <div class="footer-container">
                     <div class="footer__block1 block1">
                         <a href="" class="block1__link">
-                            <img src="image/wezom_logo.svg" alt="" class="block1__img">
+                            <svg class="block1__image logo">
+                                <use href=sprite.svg#wezom_logo></use>
+                            </svg>
                         </a>
                         <a href="" target="_blank" class="block1__link block1__link_margin">© 2020 Интернет-магазин</a>
                         <a href="" target="_blank" class="block1__link">Условия использования сайта</a>
@@ -96,17 +110,23 @@
                         <div class="block22">
                             <div class="block2__social-networks social-networks">
                                 <a href="" target="_blank" class="social-networks__link">
-                                    <img src="image/facebook.svg" alt="" class="social-networks__img">
+                                    <svg class="social-networks__img">
+                                        <use href=sprite.svg#facebook></use>
+                                    </svg>
                                 </a>
                             </div>
                             <div class="block2__social-networks social-networks">
                                 <a href="" target="_blank" class="social-networks__link">
-                                    <img src="image/instagram.svg" alt="" class="social-networks__img">
+                                    <svg class="social-networks__img">
+                                        <use href=sprite.svg#instagram></use>
+                                    </svg>
                                 </a>
                             </div>
                             <div class="block2__social-networks social-networks">
                                 <a href="" target="_blank" class="social-networks__link">
-                                    <img src="image/viber.svg" alt="" class="social-networks__img">
+                                    <svg class="social-networks__img">
+                                        <use href=sprite.svg#viber></use>
+                                    </svg>
                                 </a>
                             </div>
                         </div>
@@ -120,11 +140,15 @@
                     <div class="footer__block3 block3">
                         <div class="block3__feedback feedback">
                             <a href="" target="_blank" class="feedback__chat chat chat_margin-right">
-                                <img src="image/chat.svg" alt="" class="chat__img">
+                                <svg class="chat__img">
+                                    <use href=sprite.svg#chat></use>
+                                </svg>
                                 <h2 class="chat__title">Чат онлайн</h2>
                             </a>
                             <a href="" target="_blank" class="feedback__post post">
-                                <img src="image/post-us.svg" alt="" class="post__img">
+                                <svg class="post__img">
+                                    <use href=sprite.svg#post-us></use>
+                                </svg>
                                 <h2 class="post__title">Написать нам</h2>
                             </a>
                         </div>
@@ -149,15 +173,21 @@
                         <button class="block5__btn">
                             <p class="block5__text">Вверх</p>
                             <div class="block5__vector">
-                                <img src="image/vector.svg" alt="" class="block5__img">
+                                <svg class="block5__img">
+                                    <use href=sprite.svg#vector></use>
+                                </svg>
                             </div>
                         </button>
                     </div>
                 </div>
                 <div class="footer__footer">
                     <div class="footer__payment payment">
-                        <img src="image/portmone.svg" alt="" class="footer__payment-img payment__img">
-                        <img src="image/mastercard.svg" alt="" class="footer__payment-img payment__img">
+                        <svg class="footer__payment-img payment__img portmone">
+                            <use href=sprite.svg#portmone></use>
+                        </svg>
+                        <svg class="footer__payment-img payment__img mastercard">
+                            <use href=sprite.svg#mastercard></use>
+                        </svg>
                         <img src="image/visa.png" alt="" class="footer__payment-img payment__img">
                     </div>
                     <h2 class="footer__wezom wezom">
@@ -166,6 +196,15 @@
                 </div>
             </div>
         </footer>
+        <div class="mobile-menu">
+            <div class="geolocation">
+                <img class="geolocation__image" src="image/geo.svg" alt="">
+                <a class="geolocation__city" href="">Херсон</a>
+            </div>
+            <svg class="svg">
+                <use href="sprite.svg#geo"></use>
+            </svg>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>

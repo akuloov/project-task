@@ -134,6 +134,8 @@
 
                 &__img {
                     vertical-align: middle;
+                    max-width: 40px;
+                    max-height: 40px;
                 }
 
                 &__title {
@@ -155,6 +157,8 @@
 
                 &__img {
                     vertical-align: middle;
+                    max-width: 40px;
+                    max-height: 40px;
                 }
 
                 &__title {
@@ -250,6 +254,9 @@
 
         &__img {
             transform: rotate(-90deg);
+            max-width: 30px;
+            max-height: 15px;
+            fill: none;
         }
     }
 
@@ -277,12 +284,23 @@
         }
 
     }
-    
-            &__payment{
-            
-            &-img{
-                margin-right: 25px;
-                vertical-align: middle;
-            }
+
+    &__payment {
+
+        &-img {
+            margin-right: 25px;
+            vertical-align: middle;
+
         }
+
+        .portmone {
+            max-width: 84px;
+            max-height: 27px;
+        }
+        
+        .mastercard{
+            max-height: 32px;
+            max-width: 41px;
+        }
+    }
 }
