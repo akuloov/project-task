@@ -13,10 +13,17 @@
     <div class="layout">
         <div class="layout__body">
             <header class="header">
-                <div class="header-container">
+                <div class="mobile-header">
+                    <a href="" class="mobile-link">
+                        <svg class="mobile-logo">
+                            <use href=sprite.svg#wezom_logo></use>
+                        </svg>
+                    </a>
                     <div class="header__burger">
                         <span></span>
                     </div>
+                </div>
+                <div class="header-container">
                     <div class="header-top">
                         <div class="header-top__left-block left-block-top">
                             <div class="header__geolocation geolocation">
@@ -201,9 +208,50 @@
                 <img class="geolocation__image" src="image/geo.svg" alt="">
                 <a class="geolocation__city" href="">Херсон</a>
             </div>
-            <svg class="svg">
-                <use href="sprite.svg#geo"></use>
-            </svg>
+            <nav class="nav-top">
+                <a class="nav-top__link" href="">Магазины</a>
+                <a class="nav-top__link" href="">Блог</a>
+                <a class="nav-top__link" href="">Покупателям</a>
+            </nav>
+            <div class="header__tel">
+                Консультация: <a href="tel:0444903100" class="right-block-top__link">(044) 490 31 00</a>
+            </div>
+            <div class="language">
+                <a href="" class="language__item">УКР</a>
+                <a href="" class="language__item">РУС</a>
+                <a href="" class="language__item">ENG</a>
+            </div>
+            <nav class="nav-bottom">
+                <a href="" class="nav-bottom__link">Товары по питомцам</a>
+                <a href="" class="nav-bottom__link">Бренды</a>
+                <a href="" class="nav-bottom__link">Ветаптека</a>
+                <a href="" class="nav-bottom__link">Найди друга</a>
+                <a href="" class="nav-bottom__link">Ветклиники</a>
+            </nav>
+            <button class="button-search">
+                <svg class="button-search__image">
+                    <use href=sprite.svg#search></use>
+                </svg>
+                Поиск
+            </button>
+            <div class="usage">
+                <a href="" class="usage__item">
+                    <svg class="usage__img">
+                        <use href=sprite.svg#human></use>
+                    </svg>
+                </a>
+                <a href="" class="usage__item">
+                    <svg class="usage__img">
+                        <use href=sprite.svg#like></use>
+                    </svg>
+                </a>
+                <a href="" class="usage__item usage__img_counter">
+                    <svg class="usage__img">
+                        <use href=sprite.svg#basket></use>
+                    </svg>
+                    <div class="usage__counter">0</div>
+                </a>
+            </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

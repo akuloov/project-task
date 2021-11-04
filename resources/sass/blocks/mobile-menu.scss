@@ -1,0 +1,48 @@
+.mobile-menu{
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FE9;
+    display: none;
+    
+    .nav-top{
+        &__link{
+            &:hover{
+                opacity: 0.8;
+                transition: 0.3s;
+            }
+        }
+    }
+    
+    .right-block-top__link{
+        &:hover{
+            opacity: 0.8;
+            transition: 0.3s;
+        }
+    }
+    
+    .language{
+        &__item{
+            &:hover{
+                background-color: #F4F5F8;
+                border-radius: 3px;
+                transition: 0.3s;
+            }
+        }
+    }
+    
+    .nav-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        &__link{
+            &:hover{
+            opacity: 0.8;
+            transition: 0.3s;
+        }
+        }
+    }
+}
