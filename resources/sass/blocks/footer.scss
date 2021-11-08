@@ -1,7 +1,6 @@
 .footer {
     background: #245420;
     font-size: 14px;
-    z-index: 100;
 
     &-container {
         display: flex;
@@ -9,7 +8,56 @@
         margin-top: 56px;
     }
 
-    .block1 {
+    &__block4 {
+        margin-top: 88px;
+    }
+
+    &__footer {
+        max-width: 1060px;
+        margin-left: auto;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .wezom {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.4);
+
+            &__link {
+                font-weight: 700;
+                color: rgba(255, 255, 255, 1);
+
+                &:hover {
+                    opacity: 0.7;
+                    transition: 0.3s;
+                }
+            }
+        }
+
+    }
+
+    &__payment {
+
+        &-img {
+            margin-right: 25px;
+            vertical-align: middle;
+
+        }
+
+        .portmone {
+            max-width: 84px;
+            max-height: 27px;
+        }
+        
+        .mastercard{
+            max-height: 32px;
+            max-width: 41px;
+        }
+    }
+}
+
+.block1 {
         display: flex;
         flex-direction: column;
 
@@ -30,8 +78,8 @@
             }
         }
     }
-
-    .block2 {
+    
+     .block2 {
         display: flex;
         flex-direction: column;
 
@@ -87,7 +135,7 @@
 
         }
     }
-
+    
     .block3 {
         display: flex;
         flex-direction: column;
@@ -172,11 +220,7 @@
             }
         }
     }
-
-    &__block4 {
-        margin-top: 88px;
-    }
-
+    
     .block4 {
 
         &__title {
@@ -259,48 +303,3 @@
             fill: none;
         }
     }
-
-    &__footer {
-        max-width: 1060px;
-        margin-left: auto;
-        border-top: 1px solid rgba(255, 255, 255, 0.2);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        .wezom {
-            font-size: 14px;
-            color: rgba(255, 255, 255, 0.4);
-
-            &__link {
-                font-weight: 700;
-                color: rgba(255, 255, 255, 1);
-
-                &:hover {
-                    opacity: 0.7;
-                    transition: 0.3s;
-                }
-            }
-        }
-
-    }
-
-    &__payment {
-
-        &-img {
-            margin-right: 25px;
-            vertical-align: middle;
-
-        }
-
-        .portmone {
-            max-width: 84px;
-            max-height: 27px;
-        }
-        
-        .mastercard{
-            max-height: 32px;
-            max-width: 41px;
-        }
-    }
-}

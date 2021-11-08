@@ -1,67 +1,118 @@
-.mobile-menu{
+.mobile-menu {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 700;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background: #FE9;
+    background: rgba(255, 238, 153);
     display: none;
-    box-sizing: content-box;
-    
-    @media(max-width: 520px){
-        font-size: 16px;
-    }
-    
-    @media(max-width: 345px){
-        font-size: 15px;
-    }
-    
-    .geolocation{
+    padding-left: 15px;
+
+
+    .geolocation {
         margin-bottom: 15px;
-    }
-    
-    .nav-top{
-        &__link{
-            &:hover{
+
+        &__city {
+            font-size: 25px;
+
+            &:hover {
                 opacity: 0.8;
                 transition: 0.3s;
             }
         }
     }
-    
-    .right-block-top__link{
-        &:hover{
+
+    .nav-top {
+        display: flex;
+        flex-direction: column;
+
+
+        &__link {
+            &:hover {
+                opacity: 0.8;
+                transition: 0.3s;
+            }
+        }
+    }
+
+    .right-block-top__link {
+        &:hover {
             opacity: 0.8;
             transition: 0.3s;
         }
     }
-    
-    .language{
-        &__item{
-            &:hover{
+
+    .language {
+        font-size: 30px;
+
+        &__item {
+            &:hover {
                 background-color: #F4F5F8;
                 border-radius: 3px;
                 transition: 0.3s;
             }
         }
     }
-    
-    .nav-bottom{
+
+    .nav-bottom {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
-        &__link{
-            &:hover{
+        font-size: 34px;
+
+        &__link {
+            &:hover {
+                opacity: 0.8;
+                transition: 0.3s;
+            }
+        }
+    }
+
+    .usage {
+        justify-content: flex-start;
+
+        &__item {
+            margin-left: 30px;
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .button-search {
+        margin-bottom: 20px;
+    }
+
+    .header__tel {
+        div {
+            display: inline;
+
+            @media(max-width: 460px) {
+                display: block;
+            }
+        }
+    }
+
+}
+
+.mobile-nav {
+    display: flex;
+    flex-direction: column;
+
+    &_margin {
+        margin-bottom: 30px;
+    }
+
+
+    &__link {
+        &:hover {
             opacity: 0.8;
             transition: 0.3s;
-        }
         }
     }
 }
