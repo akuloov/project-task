@@ -1,4 +1,5 @@
 .mobile-menu {
+    transition: 0.3s;
     position: absolute;
     left: 0;
     top: 0;
@@ -11,6 +12,7 @@
     background: rgba(255, 238, 153);
     display: none;
     padding-left: 15px;
+    
 
 
     .geolocation {

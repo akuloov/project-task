@@ -6,6 +6,7 @@
         display: flex;
         justify-content: space-between;
         margin-top: 56px;
+        flex-wrap: wrap;
     }
 
     &__block4 {
@@ -303,3 +304,9 @@
             fill: none;
         }
     }
+
+@media(max-width: 1090px){
+    .footer__block1:nth-child(n+2){
+        font-size: 30px;
+    }
+}

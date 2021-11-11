@@ -9,10 +9,12 @@
 
         @media(max-width: 1090px) {
             display: block;
-            position: relative;
+            position: fixed;
             z-index: 100;
             width: 30px;
             height: 20px;
+            right: 20px;
+            top: 40px;;
 
             &::before,
             &::after {
@@ -118,7 +120,7 @@
 }
 
 .mobile-header {
-    padding-top: 40px;
+    padding-top: 29px;
     margin-left: 20px;
     margin-right: 20px;
     display: none;
