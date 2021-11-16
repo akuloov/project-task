@@ -7,7 +7,7 @@
 
         margin-bottom: auto;
 
-        @media(max-width: 1090px) {
+        @media(max-width: 1235px) {
             display: block;
             position: fixed;
             z-index: 100;
@@ -55,7 +55,7 @@
     &-container {
         padding: 0 40px;
 
-        @media(max-width: 1090px) {
+        @media(max-width: 1235px) {
             display: none;
 
         }
@@ -125,7 +125,7 @@
     margin-right: 20px;
     display: none;
 
-    @media(max-width: 1090px) {
+    @media(max-width: 1235px) {
         display: flex;
         justify-content: space-between;
         align-items: center;
