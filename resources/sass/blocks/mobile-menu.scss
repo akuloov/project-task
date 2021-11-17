@@ -1,3 +1,5 @@
+
+
 .mobile-menu {
     transition: 0.3s;
     position: absolute;
@@ -150,3 +152,10 @@
         }
     }
 }
+
+@media(max-width: 350px){
+    .mobile-menu{
+        padding-left: 8px;
+    }
+}
+
