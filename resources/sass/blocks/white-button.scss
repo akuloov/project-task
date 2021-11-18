@@ -1,0 +1,20 @@
+.white-button {
+    width: 129px;
+    height: 32px;
+    border: 1px solid #E77E42;
+    border-radius: 3px;
+    color: #E77E42;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 9px 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    
+    &:hover{
+        background: #E77E42;
+        color: white;
+        transition: 0.3s;
+    }
+}
