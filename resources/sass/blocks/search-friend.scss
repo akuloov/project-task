@@ -4,14 +4,6 @@
     border-radius: 30px;
     text-align: center;
     padding-bottom: 80px;
-    margin-right: 140px;
-    
-    @media(max-width: 1280px){
-        margin-right: 70px;
-    }
-    @media(max-width: 1200px){
-        margin-right: 20px;
-    }
 
     &__subtitle {
         color: #A4563E;

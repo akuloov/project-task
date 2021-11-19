@@ -1,5 +1,18 @@
-.blog{
+.blog {
     margin-top: 124px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+
+    &__search-friend {
+        margin-right: 140px;
+
+        @media(max-width: 1310px) {
+            margin-right: 70px;
+        }
+
+        @media(max-width: 1200px) {
+            margin-right: 20px;
+        }
+    }
 }

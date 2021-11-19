@@ -1,0 +1,14 @@
+.date {
+    color: #7B94B0;
+
+    &__number {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    &__month {
+        font-size: 13px;
+        line-height: 15px;
+    }
+}
