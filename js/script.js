@@ -27,6 +27,33 @@ new Swiper('.swiper',{
        el: '.swiper-pagination',
        clickable: true,
   },
+    
+    breakpoints: {
+        1400:{
+            slidesPerView: 5,
+        },
+        
+        1100:{
+            slidesPerView: 4,
+        },
+        
+        850:{
+            slidesPerView: 3,
+        },
+        
+        600:{
+            slidesPerView: 2,
+        },
+        
+        400:{
+            slidesPerView: 1,
+        },
+        
+        200:{
+            slidesPerView: 1,
+        },
+        
+    },
     loop: true,
     
     slidesPerView: 5,
@@ -34,4 +61,6 @@ new Swiper('.swiper',{
     spaceBetween: 0,
     
     slidesPerGroup: 2,
+    
+    
 });
