@@ -1,0 +1,16 @@
+.tab {
+    color: #7B94B0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    border-bottom: 1px dashed #7B94B0;
+    padding: 8px 12px;
+    
+    &:hover,
+    &:focus{
+        background: rgba(231, 126, 66, 0.1);
+        color: #E77E42;
+        border-radius: 20px;
+        border: none;
+    }
+}

@@ -58,9 +58,6 @@ new Swiper('.swiper',{
     
     slidesPerView: 5,
     
-    spaceBetween: 0,
-    
-    slidesPerGroup: 2,
-    
+    spaceBetween: 0, 
     
 });

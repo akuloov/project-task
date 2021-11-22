@@ -10,12 +10,20 @@
         line-height: 52px;
         margin-bottom: 24px;
         margin-right: auto;
+        
+        @media(max-width: 1400px){
+            text-align: center;
+        }
     }
 
     &__usage {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
+        @media(max-width: 1400px){
+            flex-direction: column;
+        }
         
     }
 

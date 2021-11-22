@@ -1,9 +1,24 @@
-.main{
+.main {
     flex: 1 1 auto;
     margin-top: 50px;
-    
-    &__menu{
-        
+
+    &__menu {
+        margin-bottom: 32px;
+        color: #202454;
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    &__tabs {
+        margin-left: 24px;
+    }
+
+    &__tab {
+        margin-right: 24px;
+
+        &:hover {
+            transition: 0.3s;
+        }
     }
 }
 
@@ -13,6 +28,7 @@
 }
 
 .block {
+    display: block;
 
     &_bgc1 {
         background-image: url(../../image/product1.png);
@@ -98,6 +114,7 @@
 
 .description-title__block {
     height: 84px;
+    display: block;
 }
 
 .description__title {
@@ -202,13 +219,26 @@
     background-color: #245420;
 }
 
+.swiper-buttons__container {
+    position: absolute;
+    right: 109px;
+    top: -48px;
+    max-width: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .image-slider .swiper-button-next {
     height: 32px;
     width: 32px;
     border-radius: 3px;
     background-color: #E77E42;
-    right: -25px;
-    top: 140px;
+    left: 50px;
+
+    &:hover {
+        opacity: 0.8;
+        transition: 0.3s;
+    }
 }
 
 .image-slider .swiper-button-next::after {
@@ -220,8 +250,11 @@
     width: 32px;
     border-radius: 3px;
     background-color: #E77E42;
-    left: -25px;
-    top: 140px;
+
+    &:hover {
+        opacity: 0.8;
+        transition: 0.3s;
+    }
 }
 
 .image-slider .swiper-button-prev::after {
@@ -239,7 +272,33 @@
     position: relative;
 }
 
-.svg{
+.svg {
     max-width: 12px;
     max-height: 14px;
+}
+
+.registration {
+    height: 180px;
+    background: rgba(2, 108, 0, 0.4);
+
+    &__text {
+        text-align: center;
+        color: #202454;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    &__orange-button {
+        margin: 0 auto;
+        margin-top: 12px;
+    }
+
+    &__wrapper {
+        max-width: 918px;
+        display: flex;
+        margin: 0 auto;
+    }
 }
