@@ -7,14 +7,35 @@
         color: #202454;
         font-size: 32px;
         line-height: 37px;
+
+        @media(max-width: 970px) {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
     }
 
     &__tabs {
         margin-left: 24px;
+
+        @media(max-width: 970px) {
+            display: block;
+            margin: 0 auto;
+            white-space: nowrap;
+        }
     }
 
     &__tab {
         margin-right: 24px;
+        
+        @media(max-width: 600px) {
+            display: block;
+            margin-bottom: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 90px;
+        }
 
         &:hover {
             transition: 0.3s;
@@ -226,6 +247,10 @@
     max-width: 72px;
     display: flex;
     justify-content: space-between;
+
+    @media(max-width: 1050px) {
+        display: none;
+    }
 }
 
 .image-slider .swiper-button-next {
