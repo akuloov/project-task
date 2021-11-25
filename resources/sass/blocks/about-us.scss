@@ -5,6 +5,10 @@
 
     &__item {
         margin-top: 32px;
+        
+        &--hidden{
+            display: none;
+        }
     }
 
     &__title {
