@@ -1,0 +1,31 @@
+.about-us {
+    max-width: 1180px;
+    margin: 0 auto;
+    margin-bottom: 160px;
+
+    &__item {
+        margin-top: 32px;
+    }
+
+    &__title {
+        color: #202454;
+        font-size: 40px;
+        margin: 0;
+        margin-bottom: 23px;
+
+
+        &--small-size {
+            font-size: 24px;
+        }
+    }
+
+    &__text {
+        color: #7B94B0;
+        font-size: 13px;
+        line-height: 160%;
+
+        &--gradient {
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+        }
+    }
+}

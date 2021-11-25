@@ -28,7 +28,7 @@
 
     &__tab {
         margin-right: 24px;
-        
+
         @media(max-width: 600px) {
             display: block;
             margin-bottom: 10px;
@@ -303,7 +303,6 @@
 }
 
 .registration {
-    height: 180px;
     background: rgba(2, 108, 0, 0.4);
 
     &__text {
@@ -314,6 +313,12 @@
         line-height: 28px;
         margin-top: auto;
         margin-bottom: auto;
+        max-width: 542px;
+        margin-left: auto;
+
+        @media(max-width: 850px) {
+            margin: auto;
+        }
     }
 
     &__orange-button {
@@ -325,5 +330,18 @@
         max-width: 918px;
         display: flex;
         margin: 0 auto;
+        position: relative;
+        align-items: center;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    &__img {
+        position: absolute;
+        bottom: 0;
+
+        @media(max-width: 850px) {
+            display: none;
+        }
     }
 }

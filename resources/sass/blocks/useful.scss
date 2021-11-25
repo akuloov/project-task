@@ -46,6 +46,19 @@
                 color: #7B946A;
                 transition: 0.3s;
             }
+            @media(max-width: 540px){
+                display: block;
+                text-align: center;
+                margin-right: 0;
+                margin-bottom: 20px;
+                font-size: 18px;
+            }
+        }
+    }
+    
+    &__white-button{
+        @media(max-width: 540px){
+            width: 60%;
         }
     }
 }
