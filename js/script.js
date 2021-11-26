@@ -76,3 +76,7 @@ $('.show-more__disable').on('click', function () {
     $('.show-more').css('display', 'inline');
     $(this).css('display', 'none');
 })
+
+//ЛЕНИВАЯ ЗАГРУЗКА
+const observer = lozad()
+observer.observe()
